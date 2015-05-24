@@ -1,0 +1,16 @@
+$TTL 1D
+@	IN	SOA	ns1.linode.com. richardrusson.gmail.com. (
+			2014101201	; serial
+			4H		; slave refresh interval
+			4H		; slave retry interval
+			14D		; slave copy expire time
+			1D		; NXDOMAIN cache time
+		)
+
+@		NS	ns1.linode.com.
+
+@		A	178.79.161.177
+
+$TTL 60
+home		A	82.13.186.1
+
